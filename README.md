@@ -42,7 +42,7 @@ O `docker-compose` rodando no background criaria os seguintes serviços:
 
 Os seguintes endpoints possíveis de serem checados:
 
-* **`/`** raiz passando as hashtags como parametros
+* **`/`** 
 * **`/most-followed-users`** 
 * **`/total-hashtag-lang`** 
 * **`/total-per-hour`** 
