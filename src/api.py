@@ -2,7 +2,7 @@ from typing import List
 
 from fastapi import FastAPI, Query
 from src import HASHTAGS
-from src.tweets import Tweets
+from src.tweet import Tweets
 from starlette_exporter import PrometheusMiddleware, handle_metrics
 
 api = FastAPI()
