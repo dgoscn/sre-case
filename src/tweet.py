@@ -131,17 +131,3 @@ class Tweets:
             {"$sort": {"count": -1}},
         ]
         return list(self.database.tweets_collection.aggregate(aggregation))
-
-    def get_total_tweets_by_hour(self):
-        aggregation = [
-            {
-                "$group": {
-                    "_id": {
-                        "$concat": [{"$substr": [{"$hour": "$created_at"}, 0, 2]},]
-                    },
-                    "count": {"$sum": 1},
-                }
-            },
-            {"$sort": {"count": -1}},
-        ]
-        return list(self.database.tweets_collection.aggregate(aggregation))

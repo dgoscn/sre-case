@@ -11,6 +11,3 @@ http://127.0.0.1:8000/most-followed-users
 
 #total number of posts
 http://127.0.0.1:8000/total-hashtag-lang
-
-#total per hour
-http://127.0.0.1:8000/total-per-hour

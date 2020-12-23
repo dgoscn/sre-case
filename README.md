@@ -45,7 +45,6 @@ Os seguintes endpoints possíveis de serem checados:
 * **`/`** 
 * **`/most-followed-users`** 
 * **`/total-hashtag-lang`** 
-* **`/total-per-hour`** 
 * **`/metrics`** 
 
 ## Queries

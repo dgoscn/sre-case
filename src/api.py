@@ -24,8 +24,3 @@ async def most_followed_users():
 @api.get("/total-hashtag-lang")
 async def total_hashtag_lang():
     return tweets.get_total_tweets_by_hashtag_lang()
-
-
-@api.get("/total-per-hour")
-async def total_per_hour():
-    return tweets.get_total_tweets_by_hour()
