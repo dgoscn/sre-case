@@ -1,0 +1,16 @@
+#List of endpoints before to call on postman collection
+
+#get all
+http://127.0.0.1:8000/?htag=openbanking&htag=remediation&htag=devops&htag=sre&htag=microservices&htag=observability&htag=oauth&htag=metrics&htag=logmonitoring&htag=opentracing
+
+#uniq
+http://127.0.0.1:8000/?htag=devops
+
+#5 users
+http://127.0.0.1:8000/most-followed-users
+
+#total number of posts
+http://127.0.0.1:8000/total-hashtag-lang
+
+#total per hour
+http://127.0.0.1:8000/total-per-hour
