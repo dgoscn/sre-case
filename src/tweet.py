@@ -119,15 +119,3 @@ class Tweets:
 
         users = sorted(user_followers_count, key=lambda item: item[0], reverse=True)
         return users[:5]
-
-    def get_total_tweets_by_hashtag_lang(self):
-        aggregation = [
-            {
-                "$group": {
-                    "_id": {"hashtag": "$hashtag", "language": "$user_language"},
-                    "count": {"$sum": 1},
-                }
-            },
-            {"$sort": {"count": -1}},
-        ]
-        return list(self.database.tweets_collection.aggregate(aggregation))

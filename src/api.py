@@ -19,8 +19,3 @@ async def insert_tweets(htag: List[str] = Query(HASHTAGS)):
 @api.get("/most-followed-users")
 async def most_followed_users():
     return tweets.get_most_followed_users()
-
-
-@api.get("/total-hashtag-lang")
-async def total_hashtag_lang():
-    return tweets.get_total_tweets_by_hashtag_lang()
