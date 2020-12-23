@@ -54,7 +54,7 @@ Os seguintes endpoints possíveis de serem checados:
 
 ## Infrastructure
 
-![infrastructure](https://github.com/sre-case/infra_design/infra_design.png)
+![infrastructure](https://github.com/dgoscn/sre-case/blob/main/infra_design/infra_design.png)
 
 
 ## Logs
