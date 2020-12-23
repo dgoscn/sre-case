@@ -22,7 +22,7 @@ MONGO_IP=
 ```
 
 
-**Primeiro Passo: `./start.sh`**
+**Passo Necessário: `./run.sh`**
 
 Para executar o processo, seria necessário a execução do comando acima, o processo pode levar um tempo para o build acontecer.
 
