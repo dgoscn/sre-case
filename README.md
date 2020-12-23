@@ -51,7 +51,7 @@ Os seguintes endpoints possíveis de serem checados:
 
 `postman` ou curl com `elasticsearch`
 
-## Infrastructure
+## Infraestrutura
 
 ![infrastructure](https://github.com/dgoscn/sre-case/blob/main/infra_design/infra_design.png)
 
